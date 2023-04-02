@@ -127,9 +127,13 @@ body{
 	align-items: center;
 	text-align: center;
 	letter-spacing: 0.04em;
-	color:var(--color-white);
-	background:var(--color-ocean);
+	color:var(--color-iris);
+	background:var(--color-cloud);
 	cursor: pointer;
+}
+.filters-btn:hover {
+	color: var(--color-white);
+	background: var(--color-ocean);
 }
 
 .galery-title {
