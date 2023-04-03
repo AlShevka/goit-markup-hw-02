@@ -1,20 +1,27 @@
 
+:root{
+--first-color-slate: #434455 ;
+--accent-color-ocean: #404bbf;
+
+
+}
+
+/* Скидання маркерів і підкреслення */
+.list {
+	list-style: none;
+}
+	
+.link {
+	text-decoration: none;
+}
+
 body{
 	font-family: 'Roboto', sans-serif;
-	color: #434455;
+	color: var(--first-color-slate);
 	font-size: 16px;
 	line-height: 150%;
 	letter-spacing: 0.02em;
 	background-color: #ffffff;
-}
-
-	/* Скидання маркерів і підкреслення */
-.list{
-	list-style: none;
-}
-
-.link {
-	text-decoration: none;
 }
 
 /* Logo */
@@ -44,17 +51,17 @@ body{
 .contact-link {
 	font-style: normal;
 	font-weight: 400;
-	color: #434455;
+	color: var(--first-color-slate);
 }
 
 .menu-link:hover,
 .menu-link:focus {
-	color: #404bbf;
+	color: var(--accent-color-ocean);
 }
 
 .contact-mail:hover,
 .contact-mail:focus {
-	color: #404bbf;
+	color: var(--accent-color-ocean);
 }
 
 /* Hero */
@@ -84,7 +91,7 @@ background-color: #2e2f42;
 
 .hero-btn:hover,
 .hero-btn:focus {
-	background-color: #404bbf;
+	background-color: var(--accent-color-ocean);
 }
 
 /* Section */
@@ -134,7 +141,7 @@ background-color: #FFFFFF
 .filters-btn:hover,
  .filters-btn:focus {
 	color: #ffffff;
-	background: #404bbf;
+	background: var(--accent-color-ocean);
 }
 
 .galery-title {
